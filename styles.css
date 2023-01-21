@@ -1,0 +1,44 @@
+body {
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+
+.card{
+    text-align: center;
+    text-shadow: 1px 1px 2px #4e4868;
+
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    padding: 20px;
+
+    background-color: rgb(253, 169, 169);
+    justify-content: space-around;
+    border-bottom: 10px solid hsl(252, 96%, 90%);
+    color: #2b2839;
+    border-radius: 10px;
+
+ 
+    /* animation-fill-mode: forwards; */
+}
+
+.avatar{
+    box-shadow: 2px 2px 4px rgb(247, 118, 118);
+    border-radius: 100%;
+    width: 50%;
+    animation-name: reverse;
+    animation-duration: 250ms;
+}
+
+.blue-border{
+    border: 1px dotted blue;
+}
+
+img:hover {
+    animation-name: hovering;
+    animation-duration: 250ms;
+    animation-fill-mode: forwards;
+}
+
